@@ -1,0 +1,31 @@
+wl-clipboard (2.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Use meson option for zsh install dir
+  * Add editorconfig file to exclude debian/rules from the
+    4-space indent rule
+
+ -- Felipe Sateler <fsateler@debian.org>  Sun, 06 Oct 2019 20:17:15 -0300
+
+wl-clipboard (2.0.0~beta2-1) unstable; urgency=medium
+
+  * New upstream release candidate
+    - Install new bash/zsh completions
+  * Update watch file to consider release candidates
+  * Bump debhelper from old 11 to 12.
+  * Bump Standards-Version (no changes needed)
+
+ -- Felipe Sateler <fsateler@debian.org>  Sun, 22 Sep 2019 20:47:27 -0300
+
+wl-clipboard (1.0.0-1) unstable; urgency=medium
+
+  * Import new upstream version 1.0.0
+  * Remove boilerplate comments from watch file
+
+ -- Felipe Sateler <fsateler@debian.org>  Wed, 14 Nov 2018 21:15:38 -0300
+
+wl-clipboard (0.0.20181003-1) unstable; urgency=medium
+
+  * Initial release (Closes: #910185)
+
+ -- Felipe Sateler <fsateler@debian.org>  Wed, 03 Oct 2018 05:06:20 -0300
